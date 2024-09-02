@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Thauan Soares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--div para alinhar o conteúdo-->
+    <div id="conteiner">
+        <!-- div com todo o conteúdo e divs -->
+        <div id="content">            
+            
+            <!--div que contem a foto-->
+            <div id="image">
+                <img src="img/fotoCV.jfif" alt="">
+            </div>
+            
+            <!--div que contem o nome--> 
+            <div class="nome">
+                <h1>Thauan Soares</h1>
+                <h3>Desenvolvedor de Sistemas</h3>
+            </div>
+            
+            <!--div com os links internos para os tópicos da página-->
+            <div class="indice">
+                <h4 id="l5">- Menu -</h4>
+                <ul class="lista1">
+                    <li><a href="#l1">Sobre Mim</a></li>
+                    <li><a href="#l2">Formação</a></li>
+                    <li><a href="#l3">Portfólio</a></li>
+                    <li><a href="#l4">Contato</a></li>
+                </ul>
+            </div>
+            
+            <!--div com os conteúdos, sobre mim, formação e portfólio -->
+            <div>
+                <h2 id="l1">- Sobre Mim -</h2>
+                <p>Desde pequeno tenho grande apreço pela área da TI e tudo que envolva o uso da criatividade. Sou apaixonado por jogos, música, audiovisual e mais apaixonado ainda por criar coisas do zero, oque me levou a produzir minhas próprias músicas e estudar produção e modelagem de jogos. </p>
+                <a href="#l5">Topo</a>
+
+                <h2 id="l2">- Formação -</h2>
+                <ul class="lista2">
+                    <li>
+                        UNINTER - Análise e Desenvolvimento de Sistemas (cursando);
+                    </li>
+                    <li>
+                        Curso Santander - Criando Jogos com Godot (2024);
+                    </li>
+                    <li>
+                        Curso de Preparação de Oficiais da Reserva de Porto Alegre (CPOR/PA) - Formado Aspirante a Oficial da Reserva do Exército (2023);
+                    </li>
+                    <li>
+                        Lingua Inglesa (intermediário)
+                    </li>
+
+                </ul>
+                <a href="#l5"> Topo </a>
+
+                <h2 id="l3">- Portfólio -</h2>
+                <ul class="lista2">
+
+                    <li>
+                        Pequenos Projetos Variados no Github - <a href="https://github.com/thauan-soares">Github</a>
+                    </li>
+
+                </ul>
+                <a href="#l5">Topo</a>
+            </div>
+            
+            <!--div para conter o formulário de contato com os inputs-->
+            <div id="l4">
+                <h2 id="contato">- Contato -</h2>
+                <form action="" method="">
+                    <table>
+                        
+                        <tr>
+                            <th><label>Nome:</label></th>
+                            <td><input type="text" name="nome" id="nome" placeholder="Digite seu nome..."></td>
+                            <th><label>Email:</label></th>
+                            <td><input type="email" name="email" id="email" placeholder="Endereço de e-mail..."></td>
+                        </tr>
+
+                        <tr>
+                        </tr>
+
+                        <tr>
+                            <th><label>Mensagem:</label></th>
+                            <td colspan="4"><textarea name="msg" id="msg" rows="10" cols="56" maxlength="1000" placeholder="Digite uma Mensagem..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#l5">Topo</a></td>
+                            <td colspan="4">
+                                <button>Enviar</button>
+                            </td>
+                        </tr>
+                       
+                    </table>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
